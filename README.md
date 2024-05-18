@@ -50,10 +50,10 @@ Otherwise, the program outputs "Allowed".
 The program first takes an integer input representing the age of the person using the Scanner class. It then checks whether the age is less than 15 or greater than 60 using an if statement. If the condition is true, the program outputs "Not Allowed". Otherwise, it outputs "Allowed".
 
 **Steps to execute the program:**
-Save the code in a file named "Fktickets.java".
+Save the code in a file named "task1b.java".
 Open the terminal or command prompt and navigate to the directory where the file is saved.
-Compile the program by typing "javac Fktickets.java" and pressing enter.
-Run the program by typing "java Fktickets" and pressing enter.
+Compile the program by typing "javac task1b.java" and pressing enter.
+Run the program by typing "java task1b" and pressing enter.
 Enter the age of the person when prompted.
 The program will display "Allowed" or "Not Allowed" based on the age entered.
 This program can be used to help the park authorities to ensure that only eligible individuals are allowed to ride the rides that are not suitable for children and aged people.
