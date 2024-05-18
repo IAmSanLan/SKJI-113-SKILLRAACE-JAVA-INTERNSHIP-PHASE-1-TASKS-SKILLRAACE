@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ChangeCalculator {
+public class task1a {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -26,6 +26,7 @@ public class ChangeCalculator {
                         minNotes[i] = numNotes + 1;
                     }
                 }
+                
             }
         }
         System.out.println("The smallest number of notes that will combine to give is: " );
