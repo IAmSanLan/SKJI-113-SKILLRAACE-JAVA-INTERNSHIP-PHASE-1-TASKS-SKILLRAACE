@@ -26,7 +26,6 @@ public class task1a {
                         minNotes[i] = numNotes + 1;
                     }
                 }
-                
             }
         }
         System.out.println("The smallest number of notes that will combine to give is: " );
