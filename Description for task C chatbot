@@ -9,3 +9,5 @@ User Interaction: The chatbot interacts with the user through the console.
 Predefined Responses: The chatbot recognizes and responds to specific inputs.
 Case Insensitivity: The chatbot treats user input in a case-insensitive manner.
 Termination Command: The user can end the conversation by typing "end".
+
+
