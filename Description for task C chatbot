@@ -1,1 +1,11 @@
+# SKJI-113-SKILLRAACE-JAVA-INTERNSHIP-PHASE-3-TASKS-SKILLRAACE
+SKILLRAACE JAVA INTERNSHIP. It consist of the java code for Phase 3 tasks. 
+-------------------------------------------------------------------
+Code Description
+The provided code implements a simple chatbot in Java, named "taskc chatbot". The chatbot engages in basic conversation with the user and responds to a few predefined commands. The program reads user input continuously until the user decides to end the conversation.
 
+Features
+User Interaction: The chatbot interacts with the user through the console.
+Predefined Responses: The chatbot recognizes and responds to specific inputs.
+Case Insensitivity: The chatbot treats user input in a case-insensitive manner.
+Termination Command: The user can end the conversation by typing "end".
