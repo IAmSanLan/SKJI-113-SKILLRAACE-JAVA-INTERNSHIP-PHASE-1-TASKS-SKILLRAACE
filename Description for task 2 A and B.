@@ -1,1 +1,59 @@
+# SKJI-113-SKILLRAACE-JAVA-INTERNSHIP-PHASE-2-TASKS-SKILLRAACE
+SKILLRAACE JAVA INTERNSHIP. It consist of the java code for Phase 2 tasks. Phase 2 tasks are divided into two parts as TASK 2A and TASK 2B.
+-------------------------------------------------------------------
 
+************** *TASK 2A Description:* ************
+**Task Description**
+The task is to write a Java program that calculates the sum of odd and even digits in a given long integer. The program takes a single long integer as input and outputs the sum of the odd digits and the sum of the even digits. The output must display the sums separated by a space.
+
+**Features of the Code**
+User Input: The program reads a long integer from the user.
+Digit Processing: It processes each digit of the number to determine if it's odd or even.
+Sum Calculation: It maintains separate sums for odd and even digits.
+Output: The program outputs the sums of odd and even digits.
+
+**Working**
+Initialization: The program initializes a Scanner object to read user input and two variables (sumOfOddDigits and sumOfEvenDigits) to store the sums of odd and even digits, respectively.
+
+Input Reading: It prompts the user to enter a number and reads the input as a long integer.
+
+Digit Extraction and Sum Calculation:
+
+The program uses a while loop to process each digit of the number.
+It extracts the last digit using the modulus operator (%).
+It checks if the digit is even or odd by using the modulus operator with 2.
+Depending on the result, it adds the digit to either sumOfEvenDigits or sumOfOddDigits.
+It then removes the last digit from the number using integer division by 10.
+Output: After processing all digits, the program prints the sums of odd and even digits separated by a space.
+
+
+
+************** *TASK 2B Description:* ************
+**Task Description**
+The program has the following features:
+
+It takes a long integer input representing the given integer.
+It uses a while loop to extract each digit from the integer.
+It checks whether each digit is 4 using the equality operator.
+If the digit is 4, it increments the count variable.
+It prints the number of occurrences of the digit 4 in the integer.
+The program works as follows:
+
+**Working**
+It takes a long integer input representing the given integer.
+It initializes a variable count to 0, which will be used to store the number of occurrences of the digit 4.
+It uses a while loop to extract each digit from the integer.
+It checks whether each digit is 4 using the equality operator.
+If the digit is 4, it increments the count variable.
+It prints the number of occurrences of the digit 4 in the integer.
+The program has the following steps for execution:
+
+**Execution**
+Save the code in a file named "task2b.java".
+Open the terminal or command prompt and navigate to the directory where the file is saved.
+Compile the program by typing "javac task2b.java" and pressing enter.
+Run the program by typing "java task2b" and pressing enter.
+Enter the integer when prompted.
+The program will display the number of occurrences of the digit 4 in the integer.
+This program can be used to count the number of occurrences of the digit 4 in a large integer, which can be useful in various mathematical and analytical applications. 
+The program can be easily modified to count the number of occurrences of any other digit by changing the digit value in the if statement.
